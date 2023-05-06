@@ -1,0 +1,40 @@
+DIRECTORY Structure
+API Name - eg greet, calculator
+<DIR>
+    client 
+    <DIR>
+         -----> .go files related to client requests to server
+    </DIR>
+    proto
+    <DIR>
+        -----> proto files and generated go files 
+    </DIR>
+    server
+    <DIR>
+        -----> .go files related to the server
+    </DIR>
+</DIR>
+
+Proto files
+syntax
+package
+option 
+
+- message - Request payload
+- message - Response payload
+- service - A service or services that implement/s logic that takes in a message and returns another.
+
+
+Server
+Create listener
+Instantiate a registrar server
+Register new service with registrar server.
+Serve
+
+
+Client
+Dial
+Create client service
+call service
+
+
